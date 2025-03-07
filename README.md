@@ -36,8 +36,6 @@ The detailed methodology, experiments, and results are documented in the accompa
 ## Contributing
 We welcome feedback and collaboration! Please feel free to open issues for discussions. Detailed contribution guidelines will be added after code release.
 
-## License
-This project will be licensed under the [MIT License](LICENSE) upon code publication - see the `LICENSE` file (to be added) for details.
 
 ## Acknowledgments
 - The authors thank Chongqing University for research support.
