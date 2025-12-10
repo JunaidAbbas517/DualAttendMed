@@ -197,25 +197,6 @@ Run inference:
 python infer.py
 ```
 
-## 📊 Results
-
-### Performance on Retinal Fundus Datasets
-
-| Dataset | Accuracy | IoU | Precision | Recall | F1-Score |
-|---------|----------|-----|-----------|--------|----------|
-| **APTOS** | **92.50%** | **0.85** | - | - | - |
-| **DDR** | **87.10%** | **0.80** | - | - | - |
-| **Messidor-2** | **88.70%** | **0.75** | - | - | - |
-
-### Comparison with State-of-the-Art Methods
-
-DualAttendMed outperforms leading CNN, attention, and hybrid methods on retinal fundus datasets, achieving superior classification accuracy and localization precision.
-
-### Clinical Evaluation
-
-- **Interpretability Score**: 4.7/5 (rated by clinical experts)
-- **Clinical Confidence**: Enhanced through visual explanations
-- **Early Detection**: Improved performance on subtle disease patterns
 
 ## 📁 Code Structure
 
