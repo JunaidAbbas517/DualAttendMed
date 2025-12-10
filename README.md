@@ -15,12 +15,9 @@
 - [Dataset Preparation](#dataset-preparation)
 - [Training](#training)
 - [Inference](#inference)
-- [Results](#results)
 - [Code Structure](#code-structure)
-- [Citation](#citation)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
-- [License](#license)
 
 ## 🎯 Overview
 
@@ -97,7 +94,7 @@ Output: Class Prediction + Attention Maps
 
 - Python 3.8 or higher
 - CUDA-capable GPU (recommended)
-- 16GB+ RAM (for training)
+- 8GB+ RAM (for training)
 
 ### Step 1: Clone the Repository
 
@@ -161,7 +158,7 @@ Edit `config_distributed.py`:
 ```python
 GPU = '0'                    # GPU ID
 epochs = 40                  # Training epochs
-batch_size = 16              # Batch size
+batch_size = 32              # Batch size
 learning_rate = 1e-3         # Initial learning rate
 image_size = (224, 224)      # Input image size
 num_attentions = 32          # Number of attention maps
@@ -279,19 +276,6 @@ The inference script automatically generates attention visualizations when `visu
 
 Set `use_cam_iou = True` in `config_infer.py` to enable IoU evaluation using CAM-based pseudo-ground truth.
 
-## 📚 Citation
-
-If you use DualAttendMed in your research, please cite:
-
-```bibtex
-@article{abbas2025dualattendmed,
-  title={DualAttendMed: A Coarse-to-Fine Dual-Stage Attention Framework for Interpretable Disease Localization and Classification},
-  author={Abbas, Junaid and Badar Soomro, Danyal and Huang, Shanshan and Liu, Li},
-  journal={Expert Systems with Applications},
-  year={2025},
-  note={Under Review}
-}
-```
 
 ## 👥 Authors
 
@@ -303,29 +287,16 @@ If you use DualAttendMed in your research, please cite:
 ## 🙏 Acknowledgments
 
 - Chongqing University for research support and resources
-- Clinical experts and ophthalmologists who provided valuable feedback
 - The open-source community for excellent tools and libraries
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🔮 Future Work
-
-- Extend DualAttendMed to other medical imaging modalities (X-rays, MRIs, CT scans)
-- Refine multi-lesion attention fusion techniques
-- Broaden validation across diverse populations and datasets
-- Develop real-time inference capabilities for clinical deployment
-- Explore federated learning for privacy-preserving medical AI
 
 ## 📧 Contact
 
 For questions, collaborations, or feedback:
 
-- **Junaid Abbas**: [Your Email]
-- **Danyal Badar Soomro**: [Your Email]
-- **Shanshan Huang**: [Your Email]
-- **Li Liu**: [Your Email]
+- **Junaid Abbas**: 
+- **Danyal Badar Soomro**:
+- **Shanshan Huang**: 
+- **Li Liu**: 
 
 ## 🌟 Star History
 
