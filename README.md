@@ -1,4 +1,4 @@
-# DualAttendMed: A Coarse-to-Fine Dual-Stage Attention Framework for Interpretable Disease Localization and Classification
+# DualAttendMed: A Coarse-to-Fine Dual-Stage Attention Framework for Interpretable Disease Localization and Classification.
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-orange.svg)](https://pytorch.org/)
