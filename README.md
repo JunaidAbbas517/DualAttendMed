@@ -88,7 +88,7 @@ Output: Class Prediction + Attention Maps
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.8+
 - CUDA-capable GPU (recommended)
 - 8GB+ RAM (for training)
 
@@ -106,7 +106,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-### Step 3: Install Dependencies
+### Step 3: Install requirements
 
 ```bash
 pip install -r requirements.txt
